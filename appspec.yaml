@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: "arn:aws:ecs:ap-southeast-1:805908613301:task-definition/nginx:6" # Specify the ARN of your task definition (arn:aws:ecs:region:account-id:task-definition/task-definition-family-name:task-definition-revision-number)
+        LoadBalancerInfo: 
+          ContainerName: "nginx" # Specify the name of your Amazon ECS application's container
+          ContainerPort: "80"
