@@ -21,7 +21,7 @@
             "environment": [],
             "mountPoints": [],
             "volumesFrom": [],
-            "image": "suttiruk046/nginx:1.0.2",
+            "image": "suttiruk046/nginx:1.0.3",
             "name": "nginx"
           }             
     ],
