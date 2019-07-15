@@ -1,4 +1,4 @@
-{
+[ {
 "name":"customer-portal-proxy",
 "ImageURI": "fwdth/customer-portal-proxy:1.0.0"
-}
+} ]
